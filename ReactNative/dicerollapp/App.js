@@ -16,7 +16,7 @@ export default function App() {
   ]
 
   function rollthedice(){
-    const randomnumber = Math.floor(Math.random() * 5);
+    const randomnumber = Math.floor(Math.random() * 6);
     setDiceno(randomnumber);
   }
 
